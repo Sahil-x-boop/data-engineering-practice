@@ -29,7 +29,7 @@ def download_file(url):
 
     except requests.exceptions.RequestException as e:
         print(f"Failed to download {filename}: {e}\n")
- 
+    
 
 def main():
     print("Everything is running inside Docker successfully\n")
